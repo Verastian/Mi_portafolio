@@ -1,0 +1,17 @@
+body{
+    font-size: 16px;
+    line-height:1.6;
+}
+body{
+    margin: 0 auto;
+}
+p{
+    line-height:1.6;
+}
+
+.bg_color_1 {
+    background-color: #142a52;
+}
+.bg_color_2 {
+    background-color: #ffffff;
+}
