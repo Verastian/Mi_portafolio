@@ -1,6 +1,9 @@
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Oswald', sans-serif; */
 body{
     font-size: 16px;
     line-height:1.6;
+    font-family: 'Oswald', sans-serif; 
 }
 body{
     margin: 0 auto;
@@ -8,10 +11,23 @@ body{
 p{
     line-height:1.6;
 }
+.txt-logo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+}
+.txt-logo-var{
+    font-size: 52px;
+}
 
 .bg_color_1 {
     background-color: #142a52;
 }
 .bg_color_2 {
     background-color: #ffffff;
+}
+.hr_1{
+    border: 2px solid #000000;
+}
+.hr_2{
+    border: 2px solid #ffffff;
 }
