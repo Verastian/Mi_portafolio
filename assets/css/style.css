@@ -10,11 +10,9 @@ body {
 body {
     margin: 0 auto;
 }
-
 a {
     text-decoration: none;
-    color: #373A3C;
-    
+    color: #373A3C; 
 }
 a:hover{
     text-decoration: none;
@@ -49,4 +47,7 @@ p {
 
 .hr_2 {
     border: 2px solid #ffffff;
+}
+.fsize-52{
+    font-size: 52px;
 }

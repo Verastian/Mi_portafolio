@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark bg_color_1">
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <nav class="navbar navbar-expand-md navbar-dark bg_color_1 fixed-top py-0">
         <div class="container ">
 
             <a class="navbar-brand" href="#">
@@ -39,7 +39,7 @@
             <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobremi">Sobre Mi</a>
+                        <a class="nav-link d-none d-sm-block" href="#sobremi">Sobre Mi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#miexperiencia">Experiencia</a>
@@ -62,22 +62,22 @@
             <div class="col-12 p-0">
                 <div class="position-relative d-flex justify-content-center align-items-end">
                     <div class="position-absolute pb-md-4 ">
-                        <h2 class="text-white text-center m-0">YO SOY</h2>
+                        <h2 class="text-white text-center m-0 fsize-52">YO SOY</h2>
                         <hr class="border border-white bg-white m-0">
-                        <p class=" text-white text-center font-weight-bold txt-logo-var m-0">Verastian</p>
+                        <p class=" text-white text-center font-weight-bold txt-logo-var m-0 fsize-52">Verastian</p>
                     </div>
-                    <img class="img-fluid mx-auto d-block" src="assets/img/imagen_web_v_2_5.png" alt="images principal">
+                    <img class=" mx-auto d-block img-responsive" src="assets/img/imagen_web_v_2_5.png" alt="images principal">
                 </div>
 
             </div>
         </section>
 
-        <section class="container pt-3 ">
-            <section class="row " id="sobremi">
+        <section class="container ">
+            <section class="row pt-4" id="sobremi">
 
-                <div class="col-md-12 d-none d-sm-block bg_color_2 py-5">
+                <div class="col-md-12 d-none d-sm-block bg_color_2 pt-5">
 
-                    <h4 class="text-center">En el transcurso de mi vida laborar he ido creciendo y desarrollando
+                    <h4 class="text-center fwght font-weight-bolder">En el transcurso de mi vida laborar he ido creciendo y desarrollando
                         habilidades que poco a poco se han acercado al desarrollo Web. Te invito a conocer mi historia
                     </h4>
                     <div class=" mx-0 pt-3 pb-5">
@@ -113,47 +113,59 @@
                 </div>
 
             </section>
-            <section id="miexperiencia">
+            <section id="miexperiencia" class="pt-5">
                 <div class="row">
                     <div class="col-12 ">
-                        <h1 class="text-center font-weight-bold">MI EXPERIENCIA</h1>
+                        <h1 class="text-center font-weight-bold pt-4 pt-md-0">MI EXPERIENCIA</h1>
                         <div class=" mx-0">
                             <hr class="col-1 border-bottom border-dark bg-dark">
                         </div>
 
                         <div class="row">
 
-                            <div class="col-12  py-5">
+                            <div class="col-12  pt-5">
                                 <div id="blogCarousel" class="carousel slide" data-ride="carousel">
 
                                     <div class="carousel-inner">
                                         <div class="carousel-item active text-center">
                                             <div class="row">
                                                 <div class="col-sm-12 col-md-6 pb-5">
-                                                    <img class="img-fluid" src="assets/img/icono_1.png" alt="slider-1">
+                                                    <img class="img-fluid" src="assets/img/icono_1.png" alt="plc">
+                                                    <h3 class="pt-4 font-weight-bold">Controladores Lógicos programables</h3>
+                                                    <p>Desarrollo de proyectos</p>
                                                 </div>
                                                 <div class="col-sm-12 col-md-6 pb-5">
-                                                    <img class="img-fluid" src="assets/img/icono_2.png" alt="slider-2">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item text-center">
-                                            <div class="row">
-                                                <div class="col-sm-12 col-md-6 pb-5">
-                                                    <img class="img-fluid" src="assets/img/icono_3.png" alt="slider-3">
-                                                </div>
-                                                <div class="col-sm-12 col-md-6 pb-5">
-                                                    <img class="img-fluid" src="assets/img/icono_4.png" alt="slider-4">
+                                                    <img class="img-fluid" src="assets/img/icono_2.png" alt="hmi">
+                                                    <h3 class="pt-4 font-weight-bold"> Interfaz Hombre-Máquina</h3>
+                                                    <p>Integración en sistemas</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="carousel-item text-center">
                                             <div class="row">
                                                 <div class="col-sm-12 col-md-6 pb-5">
-                                                    <img class="img-fluid" src="assets/img/icono_5.png" alt="slider-5">
+                                                    <img class="img-fluid" src="assets/img/icono_3.png" alt="Arduino">
+                                                    <h3 class="pt-4 font-weight-bold"> Arduino </h3>
+                                                    <p>Proyectos y Robótica</p>
                                                 </div>
                                                 <div class="col-sm-12 col-md-6 pb-5">
-                                                    <img class="img-fluid" src="assets/img/icono_6.png" alt="slider-6">
+                                                    <img class="img-fluid" src="assets/img/icono_4.png" alt="Bootstrap 4">
+                                                    <h3 class="pt-4 font-weight-bold">Bootstrap 4 </h3>
+                                                    <p>Desarrollo de paginas web </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item text-center">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6 pb-5">
+                                                    <img class="img-fluid" src="assets/img/icono_5.png" alt="html5/css3">
+                                                    <h3 class="pt-4 font-weight-bold"> Html 5 y Css 3</h3>
+                                                    <p>Desarrollo de aplicaciones Web</p>
+                                                </div>
+                                                <div class="col-sm-12 col-md-6 pb-5">
+                                                    <img class="img-fluid" src="assets/img/icono_6.png" alt="Javascript">
+                                                    <h3 class="pt-4 font-weight-bold"> Javascript</h3>
+                                                    <p>Web Dinamicas</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -177,7 +189,7 @@
             </section>
         </section>
 
-        <section id="trabajos">
+        <section id="trabajos" class="pt-5">
             <div class="row ">
                 <div class=" col-12 bg_color_1 ">
                     <div class="container p-5">
@@ -246,7 +258,7 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <img src="assets/img/Icguana_mini2.png" class="card-img-top" alt="...">
+                                <img src="assets/img/dmark.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <a href="#" data-toggle="tooltip" data-placement="top" title="Visitar DMark">
                                         <h5 class="card-title font-weight-bold">DMark</h5>
